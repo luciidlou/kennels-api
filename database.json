@@ -1,141 +1,116 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "German Shepherd",
-      "locationId": 1
+      "name": "Catherine Zeta Bones",
+      "breed": "Siberian Husky",
+      "locationId": 1,
+      "id": 1
     },
     {
-      "id": 3,
-      "name": "Angus",
-      "breed": "Dalmatian 👾",
-      "locationId": 1
-    },
-    {
-      "id": 4,
-      "name": "Henley",
-      "breed": "Carolina Retriever 🚒",
-      "locationId": 1
-    },
-    {
-      "id": 5,
-      "name": "Derkins",
-      "breed": "Shih tzu 👿",
-      "locationId": 2
-    },
-    {
-      "id": 6,
-      "name": "Checkers",
+      "name": "Jimmy Chew",
       "breed": "Bulldog",
-      "locationId": 1
-    },
-    {
-      "name": "Sawyer",
-      "breed": "Lollie",
-      "id": 7,
-      "locationId": 2
-    },
-    {
-      "name": "Gypsy",
-      "breed": "Miniature Schnauzer",
-      "id": 8,
-      "locationId": 1
-    },
-    {
-      "name": "Zipper",
-      "breed": "Terrier",
-      "locationId": 2,
-      "id": 9
-    },
-    {
-      "name": "Blue",
-      "breed": "Hound dog",
-      "locationId": 2,
-      "id": 10
+      "locationId": 1,
+      "id": 2
     },
     {
       "name": "Woofgang Puck",
       "breed": "German Shepherd",
       "locationId": 2,
-      "id": 11
+      "id": 3
     },
     {
-      "name": "Jimmy Chew",
-      "breed": "Bulldog",
+      "name": "Muttley Cru",
+      "breed": "Great Dane",
       "locationId": 2,
-      "id": 12
-    }
-  ],
-  "treatments": [
-    {
-      "id": 1,
-      "animalId": 3,
-      "timestamp": 1634687829221,
-      "description": "Nails were trimmed"
+      "id": 4
     },
     {
-      "animalId": 3,
-      "description": "haircut",
-      "timestamp": 1638395574418,
-      "id": 2
+      "name": "Jabba The Mutt",
+      "breed": "Cane Corso",
+      "locationId": 2,
+      "id": 5
+    },
+    {
+      "name": "Pablo Escobark",
+      "breed": "Pomeranian",
+      "locationId": 1,
+      "id": 6
+    },
+    {
+      "name": "50 Scent",
+      "breed": "Labrabor",
+      "locationId": 1,
+      "id": 7
+    },
+    {
+      "name": "Fresh Prints",
+      "breed": "Boxer",
+      "locationId": 1,
+      "id": 8
+    },
+    {
+      "name": "James Earl Bones",
+      "breed": "Rottweilers",
+      "locationId": 1,
+      "id": 9
+    },
+    {
+      "name": "Charley",
+      "breed": "French Poodle",
+      "id": 10
     }
   ],
+  "treatments": [],
   "animalCaretakers": [
     {
-      "animalId": 8,
+      "animalId": 1,
       "userId": 3,
       "id": 1
     },
     {
-      "animalId": 9,
-      "userId": 1,
+      "animalId": 2,
+      "userId": 11,
       "id": 2
     },
     {
-      "animalId": 10,
-      "userId": 7,
+      "animalId": 3,
+      "userId": 5,
       "id": 3
     },
     {
-      "animalId": 7,
-      "userId": 11,
+      "animalId": 4,
+      "userId": 4,
       "id": 4
     },
     {
-      "animalId": 6,
-      "userId": 22,
+      "animalId": 5,
+      "userId": 9,
       "id": 5
     },
     {
-      "animalId": 5,
-      "userId": 22,
+      "animalId": 6,
+      "userId": 10,
       "id": 6
     },
     {
-      "animalId": 1,
-      "userId": 12,
+      "animalId": 7,
+      "userId": 1,
       "id": 7
     },
     {
-      "animalId": 3,
-      "userId": 2,
+      "animalId": 8,
+      "userId": 3,
       "id": 8
     },
     {
-      "animalId": 4,
-      "userId": 10,
+      "animalId": 9,
+      "userId": 1,
       "id": 9
     },
     {
-      "animalId": 11,
-      "userId": 9,
+      "animalId": 10,
+      "userId": 24,
       "id": 10
-    },
-    {
-      "animalId": 12,
-      "userId": 6,
-      "id": 11
     }
   ],
   "users": [
@@ -170,18 +145,6 @@
       "employee": true
     },
     {
-      "name": "Emily Lemmon",
-      "email": "emily@lemmon.com",
-      "id": 6,
-      "employee": true
-    },
-    {
-      "name": "Jordan Castelloe",
-      "email": "jordan@castelloe.com",
-      "id": 7,
-      "employee": true
-    },
-    {
       "name": "Leah Gwin",
       "email": "leah@gwin.com",
       "id": 8,
@@ -203,12 +166,6 @@
       "name": "Charisse Lambert",
       "email": "charisse@lambert.com",
       "id": 11,
-      "employee": true
-    },
-    {
-      "name": "Madi Peper",
-      "email": "madi@peper.com",
-      "id": 12,
       "employee": true
     },
     {
@@ -260,10 +217,28 @@
       "id": 21
     },
     {
-      "name": "Eric \"Macho Man\" Taylor",
-      "email": "macho@man.com",
-      "employee": true,
+      "name": "Jimmy  Neutron",
+      "email": "jimmy@brainblast.com",
+      "employee": false,
       "id": 22
+    },
+    {
+      "name": "Marty Robbins",
+      "email": "marty@bigiron.com",
+      "employee": false,
+      "id": 23
+    },
+    {
+      "name": "Bobby Light",
+      "email": "bobby@light.com",
+      "employee": true,
+      "id": 24
+    },
+    {
+      "name": "John  Steinbeck",
+      "email": "john@steinbeck.com",
+      "employee": false,
+      "id": 25
     }
   ],
   "employeeLocations": [
@@ -298,16 +273,6 @@
       "locationId": 2
     },
     {
-      "id": 6,
-      "userId": 6,
-      "locationId": 2
-    },
-    {
-      "id": 7,
-      "userId": 7,
-      "locationId": 1
-    },
-    {
       "id": 8,
       "userId": 8,
       "locationId": 1
@@ -328,11 +293,6 @@
       "locationId": 1
     },
     {
-      "id": 12,
-      "userId": 12,
-      "locationId": 2
-    },
-    {
       "id": 14,
       "userId": 14,
       "locationId": 2
@@ -351,57 +311,57 @@
   "animalOwners": [
     {
       "animalId": 1,
-      "userId": 15,
+      "userId": 22,
       "id": 1
     },
     {
-      "animalId": 3,
-      "userId": 20,
+      "animalId": 2,
+      "userId": 22,
       "id": 2
     },
     {
-      "animalId": 4,
-      "userId": 16,
+      "animalId": 3,
+      "userId": 18,
       "id": 3
     },
     {
-      "animalId": 5,
-      "userId": 17,
+      "animalId": 4,
+      "userId": 23,
       "id": 4
     },
     {
-      "animalId": 6,
-      "userId": 19,
+      "animalId": 5,
+      "userId": 20,
       "id": 5
     },
     {
-      "animalId": 7,
-      "userId": 20,
+      "animalId": 6,
+      "userId": 16,
       "id": 6
     },
     {
-      "animalId": 8,
-      "userId": 21,
+      "animalId": 7,
+      "userId": 16,
       "id": 7
     },
     {
-      "animalId": 9,
-      "userId": 18,
+      "animalId": 8,
+      "userId": 19,
       "id": 8
     },
     {
-      "animalId": 10,
-      "userId": 16,
+      "animalId": 8,
+      "userId": 20,
       "id": 9
     },
     {
-      "animalId": 11,
-      "userId": 21,
+      "animalId": 9,
+      "userId": 23,
       "id": 10
     },
     {
-      "animalId": 12,
-      "userId": 21,
+      "animalId": 10,
+      "userId": 25,
       "id": 11
     }
   ]
