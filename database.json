@@ -53,30 +53,6 @@
       "breed": "Hound dog",
       "locationId": 2,
       "id": 10
-    },
-    {
-      "name": "Bugle",
-      "breed": "Beagle",
-      "locationId": 1,
-      "id": 11
-    },
-    {
-      "name": "Catherine Zeta Bones",
-      "breed": "Siberian Husky",
-      "locationId": 1,
-      "id": 12
-    },
-    {
-      "name": "Jimmy Chew",
-      "breed": "Bulldog",
-      "locationId": 1,
-      "id": 13
-    },
-    {
-      "name": "Woofgang Puck",
-      "breed": "German Shepherd",
-      "locationId": 2,
-      "id": 14
     }
   ],
   "treatments": [
@@ -85,6 +61,12 @@
       "animalId": 3,
       "timestamp": 1634687829221,
       "description": "Nails were trimmed"
+    },
+    {
+      "animalId": 3,
+      "description": "haircut",
+      "timestamp": 1638395574418,
+      "id": 2
     }
   ],
   "animalCaretakers": [
@@ -139,29 +121,44 @@
       "userId": 4
     },
     {
-      "id": 11,
-      "animalId": 11,
-      "userId": 3
-    },
-    {
       "id": 12,
       "animalId": 3,
       "userId": 14
     },
     {
-      "animalId": 12,
-      "userId": 10,
+      "animalId": 1,
+      "userId": 8,
       "id": 13
     },
     {
-      "animalId": 13,
+      "animalId": 7,
       "userId": 7,
       "id": 14
     },
     {
-      "animalId": 14,
-      "userId": 4,
+      "animalId": 9,
+      "userId": 8,
       "id": 15
+    },
+    {
+      "animalId": 10,
+      "userId": 6,
+      "id": 16
+    },
+    {
+      "animalId": 4,
+      "userId": 22,
+      "id": 17
+    },
+    {
+      "animalId": 6,
+      "userId": 4,
+      "id": 18
+    },
+    {
+      "animalId": 8,
+      "userId": 22,
+      "id": 19
     }
   ],
   "users": [
@@ -424,6 +421,16 @@
       "animalId": 10,
       "userId": 15,
       "id": 11
+    },
+    {
+      "animalId": 3,
+      "userId": 19,
+      "id": 12
+    },
+    {
+      "animalId": 7,
+      "userId": 16,
+      "id": 13
     }
   ]
 }
